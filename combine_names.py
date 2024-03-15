@@ -1,5 +1,5 @@
-def combine_names(firstname, lastname):
-    return(f"{firstname} {lastname}")
+def combine_names(first, last):
+    return first + ' ' + last
 
 print (combine_names('James', 'Stevens'))
 print (combine_names('challo', 'walter'))

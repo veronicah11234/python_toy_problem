@@ -8,7 +8,6 @@ def solution(A):
     target_per_box = total_bricks // N
 
     moves = 0
-    # current_bricks = [0] * N
 
     for i in range(N):
         diff = A[i] - target_per_box

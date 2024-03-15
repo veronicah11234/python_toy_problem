@@ -15,11 +15,8 @@ def max_digit_sum_pair(arr):
                 current_sum = arr[i] + arr[j]
                 max_sum = max(max_sum, current_sum)
 
-    if found_pair:
-        return max_sum
-    else:
-        return -1
+    return max_sum  
 
 print(max_digit_sum_pair([51, 71, 17, 42]))  
 print(max_digit_sum_pair([42, 33, 60]))     
-print(max_digit_sum_pair([51, 32, 43]))     
+print(max_digit_sum_pair([51, 32, 43]))
